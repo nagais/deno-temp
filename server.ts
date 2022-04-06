@@ -1,5 +1,5 @@
 import { Application, Router, RouterContext } from 'https://deno.land/x/oak@v6.5.0/mod.ts';
-import router from './router/router.ts'
+import router from './app/router/router.ts'
 
 const port = 8080;
 const app = new Application();
